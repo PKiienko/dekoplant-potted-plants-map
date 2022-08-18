@@ -41,3 +41,10 @@
   height: 33rem;
   text-align: center;
 }
+
+p {
+  font-size: 0.8rem;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
