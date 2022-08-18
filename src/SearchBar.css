@@ -1,0 +1,9 @@
+.input-field {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .input-field {
+    width: 10rem;
+  }
+}

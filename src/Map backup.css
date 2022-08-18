@@ -1,0 +1,61 @@
+.fieldsMap {
+  width: 50rem;
+  padding-bottom: 1rem;
+  background-color: rgb(255, 211, 98);
+}
+
+.field6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 211, 98);
+  width: 50rem;
+}
+
+.blocks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  background-color: rgb(192, 192, 192);
+  height: 20rem;
+  width: 12rem;
+}
+
+.blocksName {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(192, 192, 192);
+  width: 12rem;
+  height: 1rem;
+}
+
+.sectors {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sector6-11-A,
+.sector6-11-B,
+.sector6-11-C,
+.sector6-11-D,
+.sector6-12-A,
+.sector6-12-B,
+.sector6-12-C,
+.sector6-12-D {
+  margin: 0;
+  background-color: rgb(113, 255, 203);
+  border: 0.1rem solid black;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h4 {
+  cursor: pointer;
+}

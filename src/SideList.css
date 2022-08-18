@@ -1,0 +1,43 @@
+.side-list {
+  margin: 1rem;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 0.1rem solid rgb(255, 255, 255);
+}
+
+.code {
+  width: 2.3rem;
+}
+
+.name {
+  width: 31rem;
+  border-left: 0.1rem solid rgb(255, 255, 255);
+}
+
+.pcs {
+  width: 2rem;
+  text-align: center;
+  border-left: 0.1rem solid rgb(255, 255, 255);
+}
+
+.loc1,
+.loc2,
+.loc3 {
+  width: 3rem;
+  text-align: center;
+  border-left: 0.1rem solid rgb(255, 255, 255);
+}
+
+.no-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44.5rem;
+  height: 33rem;
+  text-align: center;
+}

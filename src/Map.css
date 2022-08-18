@@ -1,0 +1,64 @@
+.allFields {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 27rem;
+  width: 36.3rem;
+  margin: 1rem;
+  background-color: lightgrey;
+  border: 0.2rem solid black;
+}
+
+.motherPlants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28.8rem;
+  height: 12rem;
+  background-color: rgb(254, 148, 148);
+  border: 0.1rem solid darkgreen;
+}
+
+.lowerFields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 16.5rem;
+}
+
+.upperFields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 36rem;
+  height: 16.5rem;
+}
+
+.field1,
+.field2,
+.field3,
+.field4,
+.field5,
+.field6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 7.2rem;
+  background-color: lightgrey;
+}
+
+.sector {
+  background-color: rgb(98, 197, 66);
+  width: 3rem;
+  height: 3rem;
+  border: 0.1rem solid darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
