@@ -50,7 +50,7 @@ const App = () => {
   return (
     <div className="App">
       <div className='top-bars'>
-        <img src={logo} alt='logo' />
+        {/* <img src={logo} alt='logo' /> */}
         <SearchBar inputText={inputText} setInputText={setInputText} setItemsOnSector={setItemsOnSector} setSelectedSector={setSelectedSector} />
         <FileSelectionBar setFileData={setFileData} />
       </div>
