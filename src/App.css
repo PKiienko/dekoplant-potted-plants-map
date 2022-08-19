@@ -10,7 +10,6 @@
   justify-content: space-evenly;
   background-color: rgb(211, 255, 204);
   margin: 0.5rem;
-  width: 1000px;
 }
 
 .top-bars img {
@@ -30,5 +29,9 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
+  }
+
+  .top-bars {
+    flex-wrap: wrap;
   }
 }

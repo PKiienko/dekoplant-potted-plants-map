@@ -48,3 +48,10 @@ p {
   -ms-user-select: none;
   user-select: none;
 }
+
+@media only screen and (max-width: 1300px) {
+  .no-data {
+    align-items: flex-start;
+    height: 2rem;
+  }
+}
